@@ -4,7 +4,8 @@
   "description": "Landing page for natures",
   "main": "index.js",
   "scripts": {
-    "dev": "node-sass sass/main.scss css/style.css -w"
+    "dev": "node-sass -w sass/main.scss css/style.css",
+    "build": "node-sass sass/main.scss css/style.css"
   },
   "author": "Serg Leon",
   "license": "ISC",
