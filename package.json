@@ -4,13 +4,13 @@
   "description": "Landing page for natures",
   "main": "index.js",
   "scripts": {
-    "dev": "node-sass -w sass/main.scss css/style.css",
+    "dev": "node-sass -r -w sass/main.scss css/style.css",
     "build": "node-sass sass/main.scss css/style.css"
   },
   "author": "Serg Leon",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.9.4"
+    "node-sass": "^4.10.0"
   },
   "dependencies": {}
 }
