@@ -15,7 +15,7 @@ html {
 //        font-size: 50%;
 //    }
 
-    @include respond(tab-lend) {
+    @include respond(tab-land) {
         font-size: 56.25%; //1rem = 9px;  9px/16px=56.25%
     }
 
