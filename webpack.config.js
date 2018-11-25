@@ -28,7 +28,7 @@ const htmlWebpackHarddiskPlugin = new HtmlWebpackHarddiskPlugin(
 
 module.exports = {
     mode: 'none',
-    entry: ['./src/index.js', './src/css/icon-font.css', './src/sass/style.scss'],
+    entry: ['./src/index.js'],
     output: {
         path: path.resolve(__dirname, 'bundle'),
         filename: 'index.js'
@@ -44,7 +44,7 @@ module.exports = {
             }, {
                 test: /\.html/,
                 use: {
-                    loader: 'html-loader'
+                    loader: 'html-loader',
                 }
             },
             {
@@ -82,7 +82,7 @@ module.exports = {
             //   },
             {
                 test: /\.(sc|c)ss$/,
-                use: [MiniCssExtractPlugin.loader, "css-loader",
+                use: ["style-loader", MiniCssExtractPlugin.loader, "css-loader",
                     {
                         loader: 'sass-loader',
                         //     options: {
