@@ -8,6 +8,7 @@ import './logo-green-small-2x.png';
 import './logo-white.png';
 import './nat-1-large.jpg';
 import './nat-1.jpg';
+import './nat-2.jpg';
 import './nat-2-large.jpg';
 import './nat-3.jpg';
 import './nat-3-large.jpg';
