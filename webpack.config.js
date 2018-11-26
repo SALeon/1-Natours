@@ -107,7 +107,8 @@ module.exports = {
         hot: true,
         watchContentBase: true,
         inline: true,
-        publicPath: ''
+        publicPath: '',
+        port: 8008,
     }
     // devServer: {
     // 	contentBase: path.join(__dirname, "bundle"),
